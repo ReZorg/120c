@@ -66,6 +66,19 @@ EMERGENCE → GROWTH → MATURITY → DECAY → DISSOLUTION → (rebirth)
 
 ## Mathematical Foundations
 
+### Hopf Fibration and Twin Pair Structure
+
+The 120-cell's 120 dodecahedral cells decompose via the Hopf fibration into exactly **12 rings of 10 cells**, each ring wrapping a great circle of S³. These rings organize into **6 polar twin pairs** - double helices of counter-rotating phases.
+
+**Key Properties:**
+- Each twin pair contains exactly **1/6 of all elements** (20 cells, 100 vertices, 200 edges, 120 faces)
+- Twin rings share **100 pentagonal faces** (the "rungs" or base pairs)
+- Each ring has **10 lifecycle phases** (Inception → Formation → ... → Seed/Rebirth)
+- **300 coordinate-degrees** per lifecycle (100 vortex-states × 3 coordinates)
+- **120 = 5!** - every permutation of 5 terminal states explored
+
+See [docs/HOPF_DECOMPOSITION.md](docs/HOPF_DECOMPOSITION.md) for complete mathematical details.
+
 ### Hopf Fibration
 
 The 120-cell's vertices lie on the 3-sphere (S³), which admits the Hopf fibration:
@@ -86,9 +99,51 @@ The 120-cell has the largest exceptional symmetry group in 4D:
 ## Applications
 
 1. **Enterprise Architecture**: Model organizational units, their interfaces, and lifecycle management
-2. **Movement Dynamics**: Represent self-organizing ecosystems without central management
+2. **Movement Dynamics**: Represent self-organizing ecosystems without central management  
 3. **Cognitive Architecture**: Map to the tetradic System 5 structure (4 tensor bundles × 3 dyadic edges)
 4. **Network Analysis**: Analyze influence, trust flows, and emergent clustering
+5. **Lifecycle Modeling**: Track organizational phases through the 10-stage developmental cycle
+6. **Twin Pair Dynamics**: Model counter-rotating processes and phase-locked coordination
+
+## Quick Start
+
+### Running the Demonstration
+
+To see the complete Hopf decomposition and twin pair lifecycle in action:
+
+```bash
+python3 examples/demonstrate_hopf_decomposition.py
+```
+
+This demonstrates:
+- Complete 120-cell Hopf decomposition (12 rings, 6 twin pairs)
+- Exact 1/6 combinatorial ratios
+- 10 lifecycle phases with curvature profiles
+- Pentagonal structure and golden ratio φ
+- Clifford torus bridging (5 ring-pairs)
+- Factorial completeness (120 = 5!)
+
+### Using the Models
+
+```python
+from models import HopfDecomposition, TwinPairLifecycle
+
+# Build the complete 120-cell structure
+hopf = HopfDecomposition()
+hopf.build_structure()
+
+# Validate (all checks pass)
+validation = hopf.validate_full_structure()
+
+# Explore a twin pair lifecycle
+lifecycle = TwinPairLifecycle(twin_pair_id=0)
+lifecycle.build_lifecycle()
+
+# Get statistics
+stats = lifecycle.get_statistics()
+print(f"Vortex-states: {stats['total_vortex_states']}")  # 100
+print(f"Coordinate-degrees: {lifecycle.compute_coordinate_degrees()}")  # 300
+```
 
 ## Related Projects
 
