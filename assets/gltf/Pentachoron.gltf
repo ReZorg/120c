@@ -1,0 +1,142 @@
+{
+  "accessors": [
+    {
+      "name": "1Pen5cellPentachoron Group001RGBff0000_0_positions",
+      "componentType": 5126,
+      "count": 48,
+      "min": [
+        -1.6370927095413208,
+        -1.9560019969940186,
+        -1.7176049947738647
+      ],
+      "max": [
+        1.6696419715881348,
+        1.8358453512191772,
+        2.0427000522613525
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "1Pen5cellPentachoron Group001RGBff0000_0_normals",
+      "componentType": 5126,
+      "count": 48,
+      "min": [
+        -0.8199151158332825,
+        -0.9402003288269043,
+        -0.9323793053627014
+      ],
+      "max": [
+        0.8199151158332825,
+        0.9402003288269043,
+        0.9323793053627014
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "1Pen5cellPentachoron Group001RGBff0000_0_indices",
+      "componentType": 5123,
+      "count": 48,
+      "min": [
+        0
+      ],
+      "max": [
+        47
+      ],
+      "type": "SCALAR",
+      "bufferView": 2,
+      "byteOffset": 0
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "1-Pen,5-cell,Pentachoron",
+      "byteLength": 1248,
+      "uri": "data:application/octet-stream;base64,MF8+v0Ze+r9BpU+/a/aAPoMjj75Q0IK9p5GaP5wCR788wNw/a/aAPoMjj75Q0IK91LbVPzkGuz62Lrq/MF8+v0Ze+r9BpU+/a/aAPoMjj75Q0IK9p5GaP5wCR788wNw/1LbVPzkGuz62Lrq/p5GaP5wCR788wNw/MF8+v0Ze+r9BpU+/1LbVPzkGuz62Lrq/H1g6PlvmnD7p3gs+EJ+RP7X2Q74eafY/PcTMPwuIcz/UhaC/EJ+RP7X2Q74eafY/H1g6PlvmnD7p3gs+DxWZv/v86j+m1/g+PcTMPwuIcz/UhaC/H1g6PlvmnD7p3gs+DxWZv/v86j+m1/g+DxWZv/v86j+m1/g+EJ+RP7X2Q74eafY/PcTMPwuIcz/UhaC/YZmgv/Or5b+obvy+ubCEvtZo8b3GJ4I+vE8yP/adHb+ZuwJAubCEvtZo8b3GJ4I+YZmgv/Or5b+obvy+QYzRv9estD/8hxo/vE8yP/adHb+ZuwJAubCEvtZo8b3GJ4I+QYzRv9estD/8hxo/vE8yP/adHb+ZuwJAYZmgv/Or5b+obvy+QYzRv9estD/8hxo/g+Myvndduj0nY6e+yRyfP41gPD972tu/o8mVv47vyr9lfom/yRyfP41gPD972tu/g+Myvndduj0nY6e+g7zGvztpzz+jULg8g+Myvndduj0nY6e+o8mVv47vyr9lfom/g7zGvztpzz+jULg8yRyfP41gPD972tu/g7zGvztpzz+jULg8o8mVv47vyr9lfom/9eVRP5bShL5BpQK/9eVRP5bShL5BpQK/9eVRP5bShL5BpQK/0TQvP54zGL9PFtg+0TQvP54zGL9PFtg+0TQvP54zGL9PFtg+c7DlPfiwcL+IrKS+c7DlPfiwcL+IrKS+c7DlPfiwcL+IrKS+iPAoP5qCO79TXSu+iPAoP5qCO79TXSu+iPAoP5qCO79TXSu+c7DlvfiwcD+IrKQ+c7DlvfiwcD+IrKQ+c7DlvfiwcD+IrKQ+5y81P61HLj/2O0G+5y81P61HLj/2O0G+5y81P61HLj/2O0G+wn4SP7T6sD5rYT4/wn4SP7T6sD5rYT4/wn4SP7T6sD5rYT4/4Bv0Pn2JTT+qOrc+4Bv0Pn2JTT+qOrc+4Bv0Pn2JTT+qOrc+9eVRv5bShD5BpQI/9eVRv5bShD5BpQI/9eVRv5bShD5BpQI/k8QKvqaUq75psG4/k8QKvqaUq75psG4/k8QKvqaUq75psG4/5y81v61HLr/2O0E+5y81v61HLr/2O0E+5y81v61HLr/2O0E+qNItvzYfnr6LgCo/qNItvzYfnr6LgCo/qNItvzYfnr6LgCo/0TQvv54zGD9PFti+0TQvv54zGD9PFti+0TQvv54zGD9PFti+wn4Sv7T6sL5rYT6/wn4Sv7T6sL5rYT6/wn4Sv7T6sL5rYT6/k8QKPqaUqz5psG6/k8QKPqaUqz5psG6/k8QKPqaUqz5psG6/n1fqvuEidD6LRlu/n1fqvuEidD6LRlu/n1fqvuEidD6LRlu/AAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgATABQAFQAWABcAGAAZABoAGwAcAB0AHgAfACAAIQAiACMAJAAlACYAJwAoACkAKgArACwALQAuAC8A"
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "bufferView_0",
+      "buffer": 0,
+      "byteLength": 576,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_1",
+      "buffer": 0,
+      "byteLength": 576,
+      "byteOffset": 576,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_2",
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1152,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material_0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "1Pen5cellPentachoron Group001RGBff0000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "1-Pen, 5-cell, Pentachoron",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
